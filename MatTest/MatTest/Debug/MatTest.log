@@ -1,0 +1,39 @@
+﻿生成启动时间为 2015-6-18 15:18:09。
+     1>项目“E:\VS2010project\MatTest\MatTest\MatTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\MatTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\MatTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Detect.cpp
+         Detect.cpp
+     1>e:\vs2010project\mattest\mattest\detect.cpp(122): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\vs2010project\mattest\mattest\detect.cpp(123): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\vs2010project\mattest\mattest\detect.cpp(155): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\vs2010project\mattest\mattest\detect.cpp(156): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\vs2010project\mattest\mattest\detect.cpp(195): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vs2010project\mattest\mattest\detect.cpp(197): warning C4018: “<”: 有符号/无符号不匹配
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010project\MatTest\Debug\MatTest.exe" /INCREMENTAL /NOLOGO opencv_core249d.lib opencv_highgui249d.lib opencv_video249d.lib opencv_ml249d.lib opencv_legacy249d.lib opencv_imgproc249d.lib opencv_nonfree249d.lib opencv_features2d249d.lib /MANIFEST /ManifestFile:"Debug\MatTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010project\MatTest\Debug\MatTest.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010project\MatTest\Debug\MatTest.lib" /MACHINE:X86 Debug\MatTest.res
+         Debug\MatTest.exe.embed.manifest.res
+         Debug\Detect.obj
+         Debug\MatTest.obj
+         Debug\MatTestDlg.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\MatTest.exe.embed.manifest" /manifest Debug\MatTest.exe.intermediate.manifest "d:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         MatTest.vcxproj -> E:\VS2010project\MatTest\Debug\MatTest.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\MatTest.unsuccessfulbuild”。
+         正在对“Debug\MatTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VS2010project\MatTest\MatTest\MatTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02
